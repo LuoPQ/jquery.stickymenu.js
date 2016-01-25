@@ -66,14 +66,14 @@ a { text-decoration: none; }
 
 
 #### options
-| 参数名 | 作用 |
-| ----  | ---- |
-|speed| 跳到指定区域的滚动时间，单位毫秒，默认500|
-|activeClass|菜单选中样式类名，默认active|
-|menuTop|菜单顶部距离浏览器视口距离，默认0|
-|onItemSelected|选择菜单项后回调函数，|
-|stickyClass|菜单固定后的样式类名，默认sticky|
-|stickyBarSelector|菜单选择器，不传则为调用元素本身|
-|stickyBarHeight|菜单的高度，不传则自动获取|
+| 参数名 | 类型 |默认值|描述|
+| ----  | ---- |-----|---|
+|speed|number|500|跳到指定区域的滚动时间，单位毫秒|
+|activeClass|string|"active"|菜单选中样式类名|
+|menuTop|number|0|菜单顶部距离浏览器视口距离，单位px|
+|onItemSelected|function|null|选择菜单项后回调函数|
+|stickyClass|string|"sticky"|菜单固定后的样式类名|
+|stickyBarSelector|string|undefined|菜单选择器，不传则为调用元素本身|
+|stickyBarHeight|number|undefined|菜单的高度，不传则自动获取|
 
 如果某个连接没有对应区域，则添加class="exceptLink"即可

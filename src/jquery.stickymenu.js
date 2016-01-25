@@ -1,4 +1,11 @@
-﻿; (function ($, window, document, undefined) {
+﻿/**
+ * jquery.stickymenu.js v0.1.0
+ * require jquery 1.7+
+ * MIT License
+ * author info pls visit http://luopq.com
+ * for more info pls visit :https://github.com/LuoPQ/jquery.stickymenu.js
+ */
+; (function ($, window, document, undefined) {
     "use strict";
 
     var defaults = {
