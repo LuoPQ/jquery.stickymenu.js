@@ -74,6 +74,8 @@ a { text-decoration: none; }
 |onItemSelected|function|null|选择菜单项后回调函数|
 |stickyClass|string|"sticky"|菜单固定后的样式类名|
 |stickyBarSelector|string|undefined|菜单选择器，不传则为调用元素本身|
+|menuItemSelector|string|"a"|菜单项选择器，默认为a标签
 |stickyBarHeight|number|undefined|菜单的高度，不传则自动获取|
+
 
 如果某个连接没有对应区域，则添加class="exceptLink"即可
