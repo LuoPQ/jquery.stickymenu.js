@@ -58,14 +58,14 @@ a { text-decoration: none; }
 </script>
 </script>
 ```
-#### Demo
+### Demo
 
 1.<a href="http://luopq.com/demo/stickymenu/examples/index.html" target="_blank">Demo1</a>
 
 2.<a href="http://luopq.com/demo/osum/index.html" target="_blank">Demo2</a>
 
 
-#### options
+### Options
 | 参数名 | 类型 |默认值|描述|
 | ----  | ---- |-----|---|
 |speed|number|500|跳到指定区域的滚动时间，单位毫秒|
